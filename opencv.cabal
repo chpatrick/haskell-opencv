@@ -70,6 +70,10 @@ library
 
     exposed-modules:
         OpenCV
+        OpenCV.C.Inline
+        OpenCV.C.PlacementNew
+        OpenCV.C.PlacementNew.TH
+        OpenCV.C.Types
         OpenCV.Calib3d
         OpenCV.Core.ArrayOps
         OpenCV.Core.Types
@@ -100,10 +104,6 @@ library
         OpenCV.Video
         OpenCV.Video.MotionAnalysis
     other-modules:
-        OpenCV.C.Inline
-        OpenCV.C.PlacementNew
-        OpenCV.C.PlacementNew.TH
-        OpenCV.C.Types
         OpenCV.Calib3d.Constants
         OpenCV.Core.ArrayOps.Internal
         OpenCV.Core.Types.Constants
