@@ -93,7 +93,6 @@ C.context openCvCtx
 C.include "opencv2/core.hpp"
 C.using "namespace cv"
 
-#include <bindings.dsl.h>
 #include "opencv2/core.hpp"
 
 #include "namespace.hpp"
