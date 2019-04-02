@@ -1,4 +1,4 @@
-cabal-version: 2.2
+cabal-version: >=1.10
 name:          opencv-extra
 version:       0.2.0.1
 homepage:      https://github.com/LumiGuide/haskell-opencv
@@ -63,7 +63,7 @@ library
         xfeatures/surf.hpp
         ximgproc-namespace.hpp
 
-    cxx-options: -std=c++11
+    cc-options: -std=c++11
 
     if os(darwin)
       extra-libraries: c++
